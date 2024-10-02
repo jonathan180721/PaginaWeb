@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Molina - Freelance/Asistente Virtual
+  </title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+        }
+        header {
+            background-color: #000080;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        nav {
+            background-color: #1e90ff;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #000080;
+        }
+        .section {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #000080;
+            border-bottom: 2px solid #1e90ff;
+            padding-bottom: 10px;
+        }
+        footer {
+            background-color: #000080;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+            object-fit: cover;
+            border: 4px solid #1e90ff;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .skill-icon {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .hero-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/api/placeholder/200/200" alt="Jonathan Molina" class="profile-img" />
+        <h1>Jonathan Molina</h1>
+        <p>Freelance</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#objetivo">Objetivo</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <img src="/api/placeholder/1200/300" alt="Freelance workspace" class="hero-image" />
+
+        <section id="objetivo" class="section">
+            <h2>Objetivo Profesional</h2>
+            <p>Mi objetivo es brindar soluciones efectivas y personalizadas a mis clientes, optimizando su tiempo y recursos. Me especializo en la organización de agendas, atención al cliente y resolución de problemas técnicos, garantizando una comunicación clara y efectiva. Estoy comprometido con la mejora continua y el aprendizaje, buscando siempre las mejores prácticas para cumplir con cada proyecto.</p>
+        </section>
+
+        <section id="experiencia" class="section">
+            <h2>Experiencia</h2>
+            <h3>FREELANCE</h3>
+            <p><strong>Outlitr, Cundinamarca - Colombia | Jun 2024 - Actualmente</strong></p>
+            <ul>
+                <li><img src="/api/placeholder/50/50" alt="Customer Service Icon" class="skill-icon" /> Experiencia en atención al cliente y soporte técnico.</li>
+                <li><img src="/api/placeholder/50/50" alt="Time Management Icon" class="skill-icon" /> Experiencia en la organización de horarios y gestión de agendas.</li>
+                <li><img src="/api/placeholder/50/50" alt="AI Icon" class="skill-icon" /> Trabajo previo como Artificial intelligence trainer en una empresa de tecnología.</li>
+                <li><img src="/api/placeholder/50/50" alt="Transcription Icon" class="skill-icon" /> Trabajo en el campo de la transcripción durante meses, transcribiendo textos, videos, entrevistas y conferencias en español.</li>
+            </ul>
+        </section>
+
+        <section id="habilidades" class="section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li><img src="/api/placeholder/50/50" alt="Social Media Icon" class="skill-icon" /> Manejo de Redes Sociales</li>
+                <li><img src="/api/placeholder/50/50" alt="Customer Service Icon" class="skill-icon" /> Atención al Cliente</li>
+                <li><img src="/api/placeholder/50/50" alt="Technical Support Icon" class="skill-icon" /> Soporte Técnico</li>
+                <li><img src="/api/placeholder/50/50" alt="Virtual Communication Icon" class="skill-icon" /> Comunicación Virtual</li>
+                <li><img src="/api/placeholder/50/50" alt="Time Management Icon" class="skill-icon" /> Planificación y Gestión del Tiempo</li>
+                <li><img src="/api/placeholder/50/50" alt="Web Design Icon" class="skill-icon" /> Creación de Sitios Web</li>
+                <li><img src="/api/placeholder/50/50" alt="Communication Icon" class="skill-icon" /> Comunicación Efectiva</li>
+                <li><img src="/api/placeholder/50/50" alt="Survey Icon" class="skill-icon" /> Manejo de Herramientas de Encuestas y Formularios</li>
+                <li><img src="/api/placeholder/50/50" alt="Ethics Icon" class="skill-icon" /> Confidencialidad y Ética Profesional</li>
+            </ul>
+        </section>
+
+        <section id="educacion" class="section">
+            <h2>Educación</h2>
+            <h3>UNIVERSITARIO</h3>
+            <p><strong>Universidad Técnica Particular de Loja - Loja - Ecuador | May 2024 - Actualmente</strong></p>
+            <p><strong>Logros:</strong> Graduado con honores, destacando en materias clave lengua castellana y física, lo que refleja un fuerte compromiso con la excelencia académica y la dedicación al aprendizaje.</p>
+        </section>
+
+        <section id="contacto" class="section">
+            <h2>Información de Contacto</h2>
+            <ul>
+                <li><img src="/api/placeholder/50/50" alt="Email Icon" class="skill-icon" /> stevenmolina823@gmail.com</li>
+                <li><img src="/api/placeholder/50/50" alt="Location Icon" class="skill-icon" /> ECUADOR</li>
+                <li><img src="/api/placeholder/50/50" alt="Phone Icon" class="skill-icon" /> +573223418420</li>
+            </ul>
+            <h3>Idiomas</h3>
+            <ul>
+                <li><img src="/api/placeholder/50/50" alt="English Flag" class="skill-icon" /> Inglés | Nivel básico</li>
+                <li><img src="/api/placeholder/50/50" alt="Spanish Flag" class="skill-icon" /> Español | Nativo</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jonathan Molina. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
